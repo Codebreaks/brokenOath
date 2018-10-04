@@ -62,6 +62,19 @@ $ rails server
 ```
 git remote add origin https://github.com/Codebreaks/brokenOath.git
 
+
+...............
+MYSQL
+
+must use this to create a SQL db server:
+$ mysql-ctl start
+
+Also if you want to test the database (db) it is require to input more command
+$ rake db:create
+Then to add database to rails test environment
+$ rake db:migrate RAILS_ENV=test
+
+
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
 
